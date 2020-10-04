@@ -1,29 +1,29 @@
 :root {
-  --gray: rgb(182,195,212);
-  --lightblue: rgb(90,149,196);
-  --darkblue: rgb(18,71,115)
+    --gray: rgb(182,195,212);
+    --lightblue: rgb(90,149,196);
+    --darkblue: rgb(18,71,115)
 }
 body {
-  /* font-family: Helvetica, Arial,  sans-serif; */
-  background-color: var(--gray);
+/* font-family: Helvetica, Arial,  sans-serif; */
+background-color: var(--gray);
 }
 a {
-  color: inherit;
+color: inherit;
 }
 .text-blue {
-  color: blue;
+color: blue;
 }
 
 nav {
-  background-color: var(--lightblue);
+background-color: var(--lightblue);
 }
 
 .selected {
-  background-color: lightyellow;
-  color: var(--lightblue);
-  border-radius: 10%;
-  
+background-color: lightyellow;
+color: var(--lightblue);
+border-radius: 10%;
+
 }
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--darkblue);
+color: var(--darkblue);
 }

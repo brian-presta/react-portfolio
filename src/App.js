@@ -3,16 +3,27 @@ import React, { useState } from 'react';
 import Components from './components'
 const { Navbar, About, Portfolio, Contact, Resume } = Components
 function App() {
-  const [currentNav, setNav] = useState({about:true})
+  const [currentNav, setNav] = useState("About")
+  function displayCurrentNav() {
+    switch (currentNav) {
+      case "About":
+        return <About/>
+      case "Portfolio":
+        return <Portfolio/>
+      case "Contact":
+        return <Contact/>
+      case "Resume":
+        return <Resume/>
+      default:
+        return <About/>
+    }
+  }
   return (
     <main className="container-fluid">
       <Navbar currentNav={currentNav} setNav={setNav} />
 
       <section>
-        {currentNav.about && <About/>}
-        {currentNav.portfolio && <Portfolio/>}
-        {currentNav.contact && <Contact/>}
-        {currentNav.resume && <Resume/>}
+        {displayCurrentNav()}
       </section>
     </main>
   );
