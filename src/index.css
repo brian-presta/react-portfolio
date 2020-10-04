@@ -7,19 +7,20 @@ body {
 /* font-family: Helvetica, Arial,  sans-serif; */
 background-color: var(--gray);
 }
-a {
-color: inherit;
-}
-.text-blue {
-color: blue;
-}
+
 
 nav {
 background-color: var(--lightblue);
-}
 
+font-size: larger;
+}
+nav h1 {
+    color: var(--darkblue);
+    background-color: rgba(182,195,212,.75);
+    border-radius: 5%;
+}
 .selected {
-background-color: lightyellow;
+background-color: rgba(182,195,212,.75);
 color: var(--lightblue);
 border-radius: 10%;
 
