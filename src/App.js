@@ -19,13 +19,18 @@ function App() {
     }
   }
   return (
-    <main className="container-fluid">
+    <>
+    <header className="container-fluid">
       <Navbar currentNav={currentNav} setNav={setNav} />
+    </header>
+      <main className='container'>
+        <div className="row justify-content-center justify-content-lg-start">
+          <h2 className="mt-1 px-2">{currentNav}</h2>
+        </div>
 
-      <section>
         {displayCurrentNav()}
-      </section>
-    </main>
+      </main>
+    </>
   );
 }
 
