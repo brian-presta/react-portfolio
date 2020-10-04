@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import './App.css';
 import Components from './components'
 const { Navbar, About, Portfolio, Contact, Resume } = Components
 function App() {
   const [currentNav, setNav] = useState("About")
+  const [headerText, setHeader] = useState("About Me")
   function displayCurrentNav() {
     switch (currentNav) {
       case "About":
@@ -18,6 +19,28 @@ function App() {
         return <About/>
     }
   }
+  function displayCurrentHeader() {
+    switch (currentNav) {
+      case "About":
+        setHeader("About Me")
+        return
+      case "Portfolio":
+        setHeader("My Work")
+        return
+      case "Contact":
+        setHeader("Contact Me")
+        return
+      case "Resume":
+        setHeader("My Resume")
+        return
+      default:
+        setHeader("About Me")
+        return
+    }
+  }
+  useEffect(displayCurrentHeader,[currentNav])
+
+  
   return (
     <>
     <header className="container-fluid">
@@ -25,10 +48,10 @@ function App() {
     </header>
       <main className='container'>
         <div className="row justify-content-center justify-content-lg-start">
-          <h2 className="mt-1 px-2">{currentNav}</h2>
+          <h2 className="mt-1 px-2">{headerText}</h2>
         </div>
 
-        {displayCurrentNav()}
+        {displayCurrentNav(currentNav)}
       </main>
     </>
   );

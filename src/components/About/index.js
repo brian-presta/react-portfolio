@@ -1,11 +1,14 @@
 import React from 'react'
-
+import devPic from '../../assets/images/me.jpg'
 function About() {
 
     return(
-        <div>
-            <h1>About</h1>
-        </div>
+        <section className="row mt-2">
+            <img src={devPic} alt="The developer" className="col-lg-4 col-12"/>
+            <p className="col-lg-8 col-12">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque rerum recusandae officiis unde? Corporis facilis sapiente quibusdam, voluptates vel reprehenderit, excepturi, perspiciatis delectus voluptate distinctio commodi harum doloremque nam praesentium?
+            </p>
+        </section>
     )
 }
 
