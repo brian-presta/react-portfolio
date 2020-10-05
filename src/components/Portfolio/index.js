@@ -1,13 +1,22 @@
 import React from 'react'
 import projects from './projects'
-
+import Card from 'react-bootstrap/Card'
 function Portfolio() {
     return(
         <section className="row">
-            {projects.map(project => (
-                <div className="col-lg-4 col-12 row">
-                    <img src={require(`../../assets/images/${project.image}`)} alt={project.description} className="col-12"/>
-                    <h3>{project.title}</h3>
+            {projects.map( (project,i) => (
+                <div className="col-12 col-lg-4 mb-2 card-wrapper" key={i}>
+                    <Card.Img variant="top" src={require(`../../assets/images/${project.image}`)} className="unhide"/>
+                    <Card className="hide">
+                        <Card.Body>
+                            <Card.Title>{project.title}</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">{project.stack}</Card.Subtitle>
+                            <div>
+                            <Card.Link href={project.deployment}>Deployment</Card.Link>
+                            <Card.Link href={project.gitHub}>GitHub</Card.Link>
+                            </div>
+                        </Card.Body>
+                    </Card>
                 </div>
             ))}
         </section>

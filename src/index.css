@@ -38,3 +38,39 @@ main h2 {
     border-bottom: 2px solid var(--darkblue);
     font-size: 2.5rem;
 }
+
+.card {
+    background-color: var(--lightblue);
+    color: var(--darkblue);
+}
+.card a {
+    color: var(--darkblue);
+}
+
+@media screen and (min-width: 980px) {
+    .card-wrapper {
+        transition: transform .5s;
+    }
+    .card-wrapper:hover {
+        z-index: 500;
+        transform: scale(1.25,1.25);
+    }
+    
+    .hide {
+        opacity: 0;
+        transform: translateY(-3rem);
+        transition: all .5s;
+        visibility: hidden;
+    }
+    
+    .unhide:hover + .hide {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+    .hide:hover{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}

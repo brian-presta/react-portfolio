@@ -2,44 +2,50 @@ const projects = [
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     },
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     },
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     },
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     },
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     },
     {
         title: "test",
         description:"lorem ipsum blah blah blah",
+        stack:'Node/Express',
         image: 'movie-finder.PNG',
-        gitHub: 'test.com',
-        deployment: 'test.com'
+        gitHub: 'https://www.test.com',
+        deployment: 'https://www.test.com'
     }
 ]
 

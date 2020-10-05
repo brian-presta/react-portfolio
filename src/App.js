@@ -46,7 +46,7 @@ function App() {
     <header className="container-fluid">
       <Navbar currentNav={currentNav} setNav={setNav} />
     </header>
-      <main className='p-3'>
+      <main className='p-3 container'>
         <div className="row justify-content-center justify-content-lg-start">
           <h2 className="mt-1 px-2">{headerText}</h2>
         </div>
