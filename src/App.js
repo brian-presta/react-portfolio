@@ -51,7 +51,7 @@ function App() {
           <h2 className="mt-1 px-2">{headerText}</h2>
         </div>
 
-        {displayCurrentNav(currentNav)}
+        {displayCurrentNav()}
       </main>
     </>
   );
