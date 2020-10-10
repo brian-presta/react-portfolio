@@ -1,50 +1,44 @@
 [
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
-       "stack": "Node/Express",
+       "title": "Movie Finder",
+       "stack": "Node/Express/Handlebars",
        "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "gitHub": "https://github.com/nmcanall/Movie-Finder",
+       "deployment": "https://movie-finder-256.herokuapp.com/"
     },
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
-       "stack": "Node/Express",
-       "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "title": "SafeTravels",
+       "stack": "HTML/CSS/JS",
+       "image": "safeTravels.PNG",
+       "gitHub": "https://github.com/chulopapi/safeTravels",
+       "deployment": "https://chulopapi.github.io/safeTravels"
     },
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
-       "stack": "Node/Express",
-       "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "title": "Photo Port",
+       "stack": "Node/React",
+       "image": "photo-port.PNG",
+       "gitHub": "https://github.com/brian-presta/photo-port",
+       "deployment": "https://brian-presta.github.io/photo-port/"
     },
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
-       "stack": "Node/Express",
-       "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "title": "Food Festival",
+       "stack": "Progressive Web App",
+       "image": "food-festival.PNG",
+       "gitHub": "https://github.com/brian-presta/food-festival",
+       "deployment": "https://brian-presta.github.io/food-festival/"
     },
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
+       "title": "Note Taker",
        "stack": "Node/Express",
-       "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "image": "note-taker.PNG",
+       "gitHub": "https://github.com/brian-presta/note-taker",
+       "deployment": "https://pure-falls-58087.herokuapp.com/"
     },
     {
-       "title": "test",
-       "description": "lorem ipsum blah blah blah",
-       "stack": "Node/Express",
-       "image": "movie-finder.PNG",
-       "gitHub": "https://www.test.com",
-       "deployment": "https://www.test.com"
+       "title": "Run Buddy",
+       "stack": "HTML/CSS",
+       "image": "run-buddy.PNG",
+       "gitHub": "https://github.com/brian-presta/run-buddy",
+       "deployment": "https://brian-presta.github.io/run-buddy/"
     }
  ]
