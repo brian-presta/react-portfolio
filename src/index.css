@@ -7,8 +7,18 @@ body {
 /* font-family: Helvetica, Arial,  sans-serif; */
 background-color: var(--gray);
 }
+/* page styling */
+main {
+    color: var(--darkblue);
 
+}
 
+main h2 {
+    border-bottom: 2px solid var(--darkblue);
+    font-size: 2.5rem;
+}
+
+/* header styling */
 nav {
 background-color: var(--lightblue);
 
@@ -29,16 +39,7 @@ border-radius: 10%;
 color: var(--darkblue);
 }
 
-main {
-    color: var(--darkblue);
-
-}
-
-main h2 {
-    border-bottom: 2px solid var(--darkblue);
-    font-size: 2.5rem;
-}
-
+/* portfolio styling */
 .card {
     background-color: var(--lightblue);
     color: var(--darkblue);
@@ -46,7 +47,11 @@ main h2 {
 .card a {
     color: var(--darkblue);
 }
-
+/* resume styling */
+#resume ul {
+    list-style-type: none;
+}
+/* portfolio stying for desktop */
 @media screen and (min-width: 980px) {
     .card-wrapper {
         transition: transform .5s;
