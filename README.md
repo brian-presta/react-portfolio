@@ -7,4 +7,4 @@ This repo hosts an updated version of my portfolio, made as a single-page applic
 ![portfolio page](./readme-images/portfolio.PNG?raw=true "portfolio page")
 
 ## Deployment
-You can view my portfolio at 
+You can view my portfolio at https://brian-presta.github.io/react-portfolio 
