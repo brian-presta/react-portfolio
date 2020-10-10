@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import './App.css';
 import Components from './components'
-const { Header, About, Portfolio, Contact, Resume } = Components
+const { Header, About, Portfolio, Contact, Resume, Footer } = Components
 function App() {
   const [currentNav, setNav] = useState("About")
   const [headerText, setHeader] = useState("About Me")
@@ -51,6 +51,7 @@ function App() {
 
         {displayCurrentNav()}
       </main>
+      <Footer />
     </>
   );
 }

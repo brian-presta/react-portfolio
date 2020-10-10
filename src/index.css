@@ -51,6 +51,7 @@ color: var(--darkblue);
 #resume ul {
     list-style-type: none;
 }
+
 /* portfolio stying for desktop */
 @media screen and (min-width: 980px) {
     .card-wrapper {

@@ -3,11 +3,12 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Resume from './Resume'
-
+import Footer from './Footer'
 export default {
     Header,
     About,
     Portfolio,
     Contact,
-    Resume
+    Resume,
+    Footer
 }
