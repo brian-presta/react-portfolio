@@ -3,11 +3,13 @@ import projects from './projects'
 import Card from 'react-bootstrap/Card'
 function Portfolio() {
     return(
-        <section className="row">
+        
+        <section className="row ml-lg-4">
             {projects.map( (project,i) => (
-                <div className="col-12 col-lg-4 mb-2 card-wrapper" key={i}>
+                <div className="col-12 col-lg-5 mb-2 mb-lg-0 card-wrapper" key={i}>
                     <Card.Img variant="top" src={require(`../../assets/images/${project.image}`)} className="unhide"/>
-                    <Card className="hide">
+                    
+                    <Card className="hide col-12">
                         <Card.Body>
                             <Card.Title>{project.title}</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">{project.stack}</Card.Subtitle>
@@ -20,6 +22,7 @@ function Portfolio() {
                 </div>
             ))}
         </section>
+        
     )
 }
 

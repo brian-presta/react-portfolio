@@ -1,11 +1,12 @@
 import React from 'react'
 
 function Resume() {
-
+    function resumeHanlder(event) {
+        event.preventDefault()
+        window.alert("Resume link is currently a placeholder!")
+    }
     return(
-        <div>
-            <h1>Resume</h1>
-        </div>
+        <p>You can download my resume <a href="./my-resume.pdf" onClick={resumeHanlder}>here</a></p>
     )
 }
 
