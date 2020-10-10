@@ -3,10 +3,10 @@ import { Nav } from 'react-bootstrap'
 import BootstrapNavbar from 'react-bootstrap/Navbar'
 import NavLink from '../NavLink'
 
-function Navbar({ currentNav, setNav }) {
+function Header({ currentNav, setNav }) {
     const navPages = ['About','Portfolio','Resume','Contact']
     return(
-        <>
+        <header className="container-fluid">
         <BootstrapNavbar collapseOnSelect expand="lg" className="container-fluid" variant="light">
             <h1 className="px-1">Brian Presta</h1>
                 <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,8 +18,8 @@ function Navbar({ currentNav, setNav }) {
                     </Nav>
                 </BootstrapNavbar.Collapse>
         </BootstrapNavbar>
-        </>
+        </header>
     )
 }
 
-export default Navbar
+export default Header

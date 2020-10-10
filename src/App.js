@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import './App.css';
 import Components from './components'
-const { Navbar, About, Portfolio, Contact, Resume } = Components
+const { Header, About, Portfolio, Contact, Resume } = Components
 function App() {
   const [currentNav, setNav] = useState("About")
   const [headerText, setHeader] = useState("About Me")
@@ -43,9 +43,7 @@ function App() {
   
   return (
     <>
-    <header className="container-fluid">
-      <Navbar currentNav={currentNav} setNav={setNav} />
-    </header>
+      <Header currentNav={currentNav} setNav={setNav} />
       <main className='p-3 ml-lg-5'>
         <div className="row justify-content-center justify-content-lg-start">
           <h2 className="mt-1 px-2">{headerText}</h2>

@@ -1,11 +1,11 @@
-import Navbar from './Navbar'
+import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Resume from './Resume'
 
 export default {
-    Navbar,
+    Header,
     About,
     Portfolio,
     Contact,
