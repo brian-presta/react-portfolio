@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.19b8adc7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.3a327121.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.3a327121.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a8d31475.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a8d31475.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.fc96ff5e.chunk.js": "/react-portfolio/static/js/2.fc96ff5e.chunk.js",
-    "static/js/2.fc96ff5e.chunk.js.map": "/react-portfolio/static/js/2.fc96ff5e.chunk.js.map",
+    "static/js/2.60e593b7.chunk.js": "/react-portfolio/static/js/2.60e593b7.chunk.js",
+    "static/js/2.60e593b7.chunk.js.map": "/react-portfolio/static/js/2.60e593b7.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.38dd2345596191e475f3755ae8b4d497.js": "/react-portfolio/precache-manifest.38dd2345596191e475f3755ae8b4d497.js",
+    "precache-manifest.81151fe2b356d99e1287a437abc1d98c.js": "/react-portfolio/precache-manifest.81151fe2b356d99e1287a437abc1d98c.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.19b8adc7.chunk.css.map": "/react-portfolio/static/css/main.19b8adc7.chunk.css.map",
-    "static/js/2.fc96ff5e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fc96ff5e.chunk.js.LICENSE.txt",
+    "static/js/2.60e593b7.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.60e593b7.chunk.js.LICENSE.txt",
+    "static/media/colossal-closer.PNG": "/react-portfolio/static/media/colossal-closer.7a64a2a7.PNG",
     "static/media/food-festival.PNG": "/react-portfolio/static/media/food-festival.6ef48a42.PNG",
     "static/media/me.jpg": "/react-portfolio/static/media/me.4ec70dee.jpg",
     "static/media/movie-finder.PNG": "/react-portfolio/static/media/movie-finder.a0623ae1.PNG",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.fc96ff5e.chunk.js",
+    "static/js/2.60e593b7.chunk.js",
     "static/css/main.19b8adc7.chunk.css",
-    "static/js/main.3a327121.chunk.js"
+    "static/js/main.a8d31475.chunk.js"
   ]
 }
