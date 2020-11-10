@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b733d0ce5b7e307f404a4f88faa1edf",
+    "revision": "c7f9f479f4b60bdc34e9fc798f514f73",
     "url": "/react-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "9d8924a615c3da6b6130",
+    "revision": "3c66f6c97e21c9f73080",
     "url": "/react-portfolio/static/css/main.19b8adc7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.60e593b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d8924a615c3da6b6130",
-    "url": "/react-portfolio/static/js/main.a8d31475.chunk.js"
+    "revision": "3c66f6c97e21c9f73080",
+    "url": "/react-portfolio/static/js/main.7454a9c5.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/food-festival.6ef48a42.PNG"
   },
   {
-    "revision": "4ec70dee6ee6bfbe137bf37bcc075bbe",
-    "url": "/react-portfolio/static/media/me.4ec70dee.jpg"
+    "revision": "92a66baf7f412a12984c2db71d8c7741",
+    "url": "/react-portfolio/static/media/me.92a66baf.jpg"
   },
   {
     "revision": "a0623ae1dda33a7ca93ea7240d2bd111",
