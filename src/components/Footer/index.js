@@ -14,8 +14,8 @@ function Footer() {
                 <a href="https://github.com/brian-presta">
                     <img src={gitHubImg} alt="link to my GitHub"/>
                 </a>
-                <a href="/">
-                    <img src={linkedInImg} alt="link to my LinkedIn" onClick={dummyClicked}/>
+                <a href="https://www.linkedin.com/in/brian-presta-988109170">
+                    <img src={linkedInImg} alt="link to my LinkedIn"/>
                 </a>
                 <a href="/">
                     <img src={twitterImg} alt="link to my Twitter" onClick={dummyClicked}/>

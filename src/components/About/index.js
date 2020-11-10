@@ -7,7 +7,7 @@ function About() {
         <section className="row mt-2">
             <img src={devPic} alt="The developer" className="col-lg-4 col-12"/>
             <p className="col-lg-8 col-12 mt-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque rerum recusandae officiis unde? Corporis facilis sapiente quibusdam, voluptates vel reprehenderit, excepturi, perspiciatis delectus voluptate distinctio commodi harum doloremque nam praesentium?
+            Lifelong coding and technology enthusiast, looking to make a career shift towards leveraging those skills professionally. SF Peninsula native. Other interests include gaming, trying new foods, and talking to people about their dogs.
             </p>
         </section>
         </div>

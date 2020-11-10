@@ -1,13 +1,9 @@
 import React from 'react'
 
 function Resume() {
-    function resumeHanlder(event) {
-        event.preventDefault()
-        window.alert("Resume link is currently a placeholder!")
-    }
     return(
         <section id="resume">
-            <p className="mt-3">You can download my resume <a href="./my-resume.pdf" onClick={resumeHanlder}>here</a>.</p>
+            <p className="mt-3">You can download my resume <a href="https://drive.google.com/file/d/1jJDiMXH3RsuUsNbQ5Kqedg0fMyRH21sM/view?usp=sharing">here</a>.</p>
             <h3>Front-end Proficiencies</h3>
             <ul>
                 <li>- HTML/CSS/JS</li>
@@ -23,6 +19,7 @@ function Resume() {
                 <li>- MongoDB</li>
                 <li>- Writing RESTful APIs</li>
                 <li>- Writing Graph QL APIs</li>
+                <li>- Data analysis with the Pandas library for Python</li>
             </ul>
         </section>
     )
